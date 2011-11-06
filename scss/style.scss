@@ -1,0 +1,116 @@
+@import "html5-boilerplate";
+@include html5-boilerplate;
+
+
+body
+{
+	width: 300px;
+	height: 600px;
+	
+}
+
+header
+{
+	background: pink;
+	width: 100px;
+	height: 100px;
+	
+	.eyes
+	{
+		padding-top: 20px;
+		width: 50px;
+	}
+	
+	.nose
+	{
+		width: 20px;
+		height: 40px;
+		input[type='button']
+		{
+			width: inherit;
+			height: inherit;
+		}
+	}
+	
+	.mouth
+	{
+		width: 50px;
+		height: 10px;
+		
+		textarea
+		{
+			width: inherit;
+			height: inherit;
+		}
+	} 
+	
+}
+
+.upper-body
+{
+	width: 300px;
+	height: 200px;
+	
+	.torso
+	{
+		background: red;
+		width: 200px;
+		height: inherit;
+		float: left;
+	}
+	
+	.arm
+	{
+		width: 50px;
+		height: inherit;
+	}
+}
+
+
+
+.lower-body
+{
+
+	background: blue;
+	width: 200px;
+	height: 250px;
+	
+	.leg
+	{	
+		width: 100px;
+		height: inherit;
+	}
+}
+
+footer
+{
+	
+	background: green;
+	width: 250px;
+	height: 50px;
+}
+
+
+
+.left
+{
+	float: left;
+	background: orange !important;
+}
+
+.right
+{
+	float: right;
+	background: yellow  !important;
+}
+
+.clear
+{
+	
+	clear: both;
+}
+
+.hcentred
+{
+	margin: 0 auto;
+}
